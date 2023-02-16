@@ -27,7 +27,7 @@ dong = ["영통동",
     "인계동",
     "우만동",
     "매산동"
-    ]
+    ] 
 
 customer_for_starbucks =[]
 for row in data :
