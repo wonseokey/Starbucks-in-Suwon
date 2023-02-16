@@ -29,12 +29,12 @@ dong = ["영통동",
     "매산동"
     ]
 
-aa =[]
+customer_for_starbucks =[]
 for row in data :
     if (row[4] != "") :
-        aa.append(float(row[4]))
+        customer_for_starbucks.append(float(row[4]))
 
 plt.title("수원시 행정구역 별 스타벅스 지점에 할당된 인구")
-plt.plot(dong, aa)
-plt.scatter(dong, aa)
+plt.plot(dong, customer_for_starbucks)
+plt.scatter(dong, customer_for_starbucks)
 plt.show()
